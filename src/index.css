@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.profileContainer{
+    display:flex;
+    justify-content: space-around;
+    width:300px;
+    height: 100px;
+    border:2px solid black;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p{
+    font-size: 15px;
+}
+.imageContainer{
+    border:1px solid black;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.infoContainer{
+    margin-top: 10px;
+}
+img{
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+.buttonContainer{
+    display: flex;
+    width: 300px;
+    justify-content:space-around;
+    margin-top: 10px;
+}
+button{
+    height: 25px;
+}
+.listContainer{
+    width: 300px;
+}
+.appContainer{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    border:1px solid green;
+    color: white;
+    background-color: rgb(182, 147, 214);
+}
+.list{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+.page-item{
+    border:0.5px solid blue;
+    padding:1px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-right: 10px;
+    background-color: rgb(213, 213, 230);
+}
+a{
+    text-decoration: none;
+}
+.list-container{
+    display: flex;
+    justify-content:center;
 }
